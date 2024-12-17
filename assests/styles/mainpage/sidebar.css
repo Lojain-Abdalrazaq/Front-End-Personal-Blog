@@ -1,0 +1,26 @@
+.sidebar{
+    margin-top: 50px;
+    grid-area: sb;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #615efc;
+    font-size: 17px;
+}
+a:hover{
+    color: #f28989;
+}
+.buttons{
+    background-color: #fff7f1;
+    color: #615efc;
+    border: 2px solid#615efc;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.buttons:hover{
+    background-color: #615efc;
+    color: #e1e7d6;
+}

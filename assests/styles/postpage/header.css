@@ -1,0 +1,20 @@
+.header{
+    grid-area: hd;
+    height: 180px;
+    text-align: center;
+    size: large;
+    color: #615efc;
+    margin-bottom: 10px;
+}
+.back{
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #615efc;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+}
+.back:hover{
+    color: #f28989;
+}

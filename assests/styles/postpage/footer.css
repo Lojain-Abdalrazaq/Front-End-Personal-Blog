@@ -1,0 +1,18 @@
+.footer{
+    grid-area: ft;
+    text-align: center;
+    margin-bottom: 10px;
+}
+button{
+    color: #615efc;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #615efc;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+}
+button:hover{
+    background-color: #615efc;
+    color: #eeeeee;
+}

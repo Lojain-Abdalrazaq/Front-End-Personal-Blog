@@ -1,0 +1,7 @@
+.header{
+    grid-area: hd;
+    height: 100px;
+    text-align: center;
+    size: large;
+    color: #615efc;
+}

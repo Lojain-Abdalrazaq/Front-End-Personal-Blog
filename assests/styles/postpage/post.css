@@ -1,0 +1,23 @@
+@import url('/assests/styles/postpage/author.css');
+@import url('/assests/styles/postpage/content.css');
+@import url('/assests/styles/postpage/footer.css');
+@import url('/assests/styles/postpage/header.css');
+@import url('/assests/styles/postpage/social.css');
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #eeeeee;
+}
+.cotainer{
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    padding: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 1fr auto;
+    grid-template-areas: 
+        "hd"
+        "author"
+        "main"
+        "social"
+        "ft";
+}

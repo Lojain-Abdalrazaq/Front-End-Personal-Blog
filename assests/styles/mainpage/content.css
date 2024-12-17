@@ -1,0 +1,41 @@
+.content{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contentpart{
+    width: 400px;
+    height: 450px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #e1e7d6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img{
+    width: 90%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 10px; 
+}
+h4{
+    text-align: center;
+    color: #615efc;
+}
+p{
+    margin-left: 10px;
+    content: justify;
+}
+.contentpart:hover{
+    background-color: #d5ebad;
+}
+figcaption{
+    text-align: center;
+    font-size: 10px;
+}
+#readmore{
+    font-size: 12px;
+}
